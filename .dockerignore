@@ -1,0 +1,11 @@
+/.git/
+/Dockerfile
+/Dockerfile.init
+/.gitignore
+/_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+/setup/
