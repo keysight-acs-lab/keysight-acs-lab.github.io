@@ -20,3 +20,9 @@ make run
 
 The above command opens a website on port `4000`.
 Open it via the URL `http://localhost:4000`.
+
+To stop the local deployment (as a Docker container instance), run:
+
+```console
+make stop
+```
