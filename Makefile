@@ -3,7 +3,7 @@ CONT_NAME ?= cnt-$(IMG_NAME)
 DOCKERFILE ?= Dockerfile
 
 build:
-	cd setup && make build
+	-test -z $(shell docker images -q jekyll-gh-pages) && test -d setup && cd setup && make build
 	docker build -t $(IMG_NAME) -f $(DOCKERFILE) .
 
 run:
