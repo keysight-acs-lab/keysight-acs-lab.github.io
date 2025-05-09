@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Keysight ACS Lab
-email: keysight-lab@upb.ro
+email: keysight@upb.ro
 description: >- # this means to ignore newlines until "baseurl:"
   Keysight ACS Lab is the organization overseeing the collaboration between Keysight Technologies Romania and the Faculty of Automatic Control and Computers (ACS), part of POLITEHNICA Bucharest (UPB).
 baseurl: "" # the subpath of your site, e.g. /blog
